@@ -16,7 +16,6 @@
     fun area(view: View) {
         Log.e(TAG, "开始跳转到 -> 我的专区 Activity")
         val intent = Intent(this, OtherActivity::class.java)
-        intent.putExtra("tag","我的专区")
         startActivity(intent)
     }
  ```
